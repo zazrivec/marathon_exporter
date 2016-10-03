@@ -1,4 +1,4 @@
-FROM scratch
+FROM debian:stretch
 MAINTAINER Getty Images "https://github.com/gettyimages"
 
 ADD bin/marathon_exporter /marathon_exporter
